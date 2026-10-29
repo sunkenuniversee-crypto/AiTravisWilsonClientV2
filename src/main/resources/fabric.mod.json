@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "aitraviswilson",
+  "version": "${version}",
+  "name": "AI Travis Wilson Client",
+  "description": "A configurable Fabric PvP client.",
+  "authors": ["Travis Wilson"],
+  "icon": "assets/aitraviswilson/icon.png",
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.aitraviswilson.client.AIClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
